@@ -1,0 +1,79 @@
+﻿.grid_wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.grid_wrapper2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+div{
+    border: 1px solid black;
+}
+
+.pasek{
+    text-align: center;
+    background-color: lightgreen;
+}
+
+.margines{
+    margin: 15px;
+    text-align: justify
+}
+
+.styltimes{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3;
+}
+.stylarial{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3;
+}
+.stylcourier{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3;
+}
+.stylgeorgia{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3;
+}
+.styltrebuchet{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 3;
+}
+.stylarialb{
+    font-family: "Arial Black";
+    font-size: 3;
+}
+.stylpalatino{
+    font-family: "Palatino Linotype";
+    font-size: 3;
+}
+.stylimpact{
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    font-size: 4em;
+}
+p.one{
+    font-size: 15px;
+    line-height: 1.6em;
+    width: 0.05em;
+}
+.czerwony pre{
+    color: red;
+}    
+a:visited{
+    color: purple;
+}
+.lewo{
+    text-align: right;
+}
+.duze{
+    font-size: 3em;
+}
+.bduze{
+    font-size: 4em;
+}
+.prawo{
+    text-align: left;
+    margin: 7px;
+    padding: 15px;
+}
