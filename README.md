@@ -1,7 +1,8 @@
 # KacperPtak.github.io
-[Verkafni 3 | ](/Verkafni/htmlsida.html)
-[Verkafni 4 html | ](/Deskopt/Verkafni4/index.html)
-[Verkafni 4 html BIG | ](/Deskopt/Verkafni4/verkafni53.html)
-[Verkafni 4 css | ](/Deskopt/Verkafni4/Verkafni4.css)
+[Verkefni 3 | ](/Verkafni/htmlsida.html)
+[Verkefni 4 html | ](/Deskopt/Verkafni4/index.html)
+[Verkefni 4 html BIG | ](/Deskopt/Verkafni4/verkafni53.html)
+[Verkefni 4 css | ](/Deskopt/Verkafni4/Verkafni4.css)
+[Verkefni 5 folder](/Deskopt/Verkefni5)
 
 
