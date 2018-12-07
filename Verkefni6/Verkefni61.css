@@ -1,0 +1,163 @@
+body{
+    background: grey;
+}
+.wrapper{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "hlekkur1 hlekkur2 hlekkur3 hlekkur4"
+    "kur kur kur kur"
+    "haus haus haus haus"
+    "lewo srodek srodek prawa"
+    "footer footer footer footer";
+}
+
+.margines{
+    margin: 15px;
+    text-align: justify;
+}
+.margines2{
+    margin: 15px;
+    text-align: left;
+}
+.margines3{
+    margin: 15px;
+    text-align: center;
+}
+
+
+
+.footer{
+    grid-area: footer;
+    background: rgb(65, 64, 64);
+    padding: 1px;
+    color: white;
+    
+}
+
+.v{
+    grid-area: lewo;
+    background: rgb(139, 139, 139);
+    font-family: Exo;
+    text-align: justify;
+    height: 220vh;
+}
+.pr{
+    grid-area: prawa;
+    background: rgb(139, 139, 139);
+    font-family: Exo;
+    text-align: justify;
+    height: 220vh;
+    
+}
+.sr{
+    grid-area: srodek;
+    background: lightgray; 
+    font-family: Exo;
+    height: 220vh;
+}
+
+.h{ 
+    grid-area: kur;
+    padding: 1em;
+    color:white; 
+    text-align: center; 
+    font-size: 2em;
+
+
+}
+
+.h1{
+    grid-area: hlekkur1;
+    background: lightgray;
+    font-family: Oswald;
+    height: 3em;
+    padding: 0.2em;
+}
+
+.h2{
+    grid-area: hlekkur2;
+    background: lightgray;
+    font-family: Oswald;
+    height: 3em;
+    padding: 0.2em;
+    
+}
+.h3{
+    grid-area: hlekkur3;
+    background: lightgray;
+    font-family: Oswald;
+    height: 3em;
+    padding: 0.2em;
+}
+.h4{
+    grid-area: hlekkur4;
+    background: lightgray;
+    font-family: Oswald;
+    height: 3em;
+    padding: 0.2em;
+}
+
+
+.textsro{
+    text-align: center;
+}
+.lol{
+    text-align: center;
+}
+
+a:visited{
+        color:rgb(36, 36, 36);
+}
+      
+a:active{
+        color:rgb(36, 36, 36);
+}
+a{
+        color: rgb(36, 36, 36);
+        text-decoration: none;
+}
+
+@media (max-width: 60em){
+
+    .wrapper{
+        width: 90%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+        "hlekkur1 hlekkur2"
+        "hlekkur3 hlekkur4"
+        "haus haus"
+        "kur kur"
+        "lewo prawa"
+        "srodek srodek"
+        "footer footer";
+    }
+
+}
+
+@media (max-width: 48em){
+
+    .wrapper{
+        width: 90%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "hlekkur1"
+        "hlekkur2"
+        "hlekkur3"
+        "hlekkur4"
+        "haus"
+        "kur"
+        "lewo"
+        "srodek"
+        "prawa"
+        "footer";
+    }
+
+}
+
